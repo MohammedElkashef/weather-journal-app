@@ -31,7 +31,7 @@ function performAction(e) {
 // GET Weather Data
 
 const getWeatherData = async (baseURL, zipCode, apiKey) => {
-  const res = await fetch(baseURL + zipCode + "&appid=" + apiKey);
+  const res = await fetch(baseURL + zipCode + apiKey);
   try {
     const data = await res.json();
     return data;
