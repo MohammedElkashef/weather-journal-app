@@ -1,7 +1,6 @@
 /* Global Variables */
 let baseURL = "https://api.openweathermap.org/data/2.5/weather?zip=";
-let apiKey = "23b56e7ba9eccf92532559a4a6bf054c";
-
+let apiKey = "&appid=23b56e7ba9eccf92532559a4a6bf054c&units=imperial";
 // Application URL
 
 const appURL = "http://localhost:9000";
